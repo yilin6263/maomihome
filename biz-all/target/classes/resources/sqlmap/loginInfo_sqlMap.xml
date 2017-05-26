@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sqlMap namespace="loginInfo">
+    <sql id="selectLoginInfo">
+        <![CDATA[
+			select
+					*
+			from
+					login_info
+
+    	]]>
+    </sql>
+
+
+
+</sqlMap>
