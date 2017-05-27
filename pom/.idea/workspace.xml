@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a8e959d-2ac5-42ab-aab7-e637a38218bf" name="Default" comment="5.26版本，数据层移植测试">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../admin/src/main/java/web/dao/LoginInfoDAO.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../admin/target/admin/WEB-INF/classes/web/controller/TestController.class" afterPath="$PROJECT_DIR$/../admin/target/admin/WEB-INF/classes/web/controller/TestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../admin/target/admin/WEB-INF/classes/web/dao/LoginInfoDAO.class" afterPath="$PROJECT_DIR$/../admin/target/admin/WEB-INF/classes/web/dao/LoginInfoDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../admin/target/admin/WEB-INF/lib/biz-all-0.0.1.jar" afterPath="$PROJECT_DIR$/../admin/target/admin/WEB-INF/lib/biz-all-0.0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../admin/target/classes/web/controller/TestController.class" afterPath="$PROJECT_DIR$/../admin/target/classes/web/controller/TestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../admin/target/classes/web/dao/LoginInfoDAO.class" afterPath="$PROJECT_DIR$/../admin/target/classes/web/dao/LoginInfoDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../biz-all/target/classes/dao/LoginInfoDAO.class" afterPath="$PROJECT_DIR$/../biz-all/target/classes/dao/LoginInfoDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../biz-all/target/classes/model/LoginInfo.class" afterPath="$PROJECT_DIR$/../biz-all/target/classes/model/LoginInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../admin/target/admin/WEB-INF/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/../admin/target/admin/WEB-INF/classes/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../admin/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/../admin/target/classes/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/../admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../biz-all/target/classes/sqlmap/loginInfo_sqlMap.xml" afterPath="$PROJECT_DIR$/../biz-all/target/classes/sqlmap/loginInfo_sqlMap.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../biz-all/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/../biz-all/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../biz-all/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../biz-all/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../admin/src/main/resources/conf/sqlmap/loginInfo_sqlMap.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../admin/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../admin/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../admin/src/main/resources/conf/mybatis/SqlMapConfig.xml" afterPath="$PROJECT_DIR$/../admin/src/main/resources/conf/mybatis/SqlMapConfig.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pom.iws" />
@@ -53,8 +41,20 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../admin/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.793103">
-              <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
+            <state vertical-scroll-proportion="-6.2727275">
+              <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+              <folding>
+                <element signature="e#2321#2345#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlMapConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../admin/src/main/resources/conf/mybatis/SqlMapConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9827585">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,30 +82,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginInfo_sqlMap.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../admin/src/main/resources/conf/sqlmap/loginInfo_sqlMap.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding>
-                <marker date="1495526064456" expanded="true" signature="1043:1118" placeholder="select from login_info" />
-                <marker date="1495526064456" expanded="true" signature="1043:1119" placeholder="select from user_t" />
-                <marker date="1495526064456" expanded="true" signature="1225:1292" placeholder="delete from " />
-                <marker date="1495526064456" expanded="true" signature="1401:1612" placeholder="insert into user_t... " />
-                <marker date="1495526064456" expanded="true" signature="2954:3460" placeholder="update user_... " />
-                <marker date="1495526064456" expanded="true" signature="3581:3805" placeholder="update user_... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../admin/src/main/java/web/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15328467">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33211678">
+              <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1279#1280#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,9 +109,11 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0666666">
-              <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
-              <folding />
+            <state vertical-scroll-proportion="-103.6">
+              <caret line="148" column="20" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
+              <folding>
+                <marker date="1495869960608" expanded="true" signature="508:6174" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,9 +123,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-1.4">
               <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-              <folding>
-                <marker date="1495869616367" expanded="true" signature="1035:1110" placeholder="select from login_info" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -198,7 +183,6 @@
         <option value="$PROJECT_DIR$/../admin/src/main/java/web/service/AdminMenuService.java" />
         <option value="$PROJECT_DIR$/../admin/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../admin/src/main/java/web/model/LoginInfo.java" />
-        <option value="$PROJECT_DIR$/../admin/src/main/resources/conf/mybatis/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/../admin/src/main/webapp/views/success.jsp" />
         <option value="$PROJECT_DIR$/../admin/src/main/resources/conf/sqlmap/loginInfo_sqlMap.xml" />
         <option value="$PROJECT_DIR$/../admin/src/main/resources/conf/dbsetting.properties" />
@@ -210,9 +194,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../biz-all/src/main/java/dao/LoginInfoDAO.java" />
         <option value="$PROJECT_DIR$/../admin/pom.xml" />
-        <option value="$PROJECT_DIR$/../admin/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/../admin/src/main/java/web/controller/TestController.java" />
         <option value="$PROJECT_DIR$/../biz-all/src/main/resources/sqlmap/loginInfo_sqlMap.xml" />
+        <option value="$PROJECT_DIR$/../admin/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/../admin/src/main/resources/conf/mybatis/SqlMapConfig.xml" />
       </list>
     </option>
   </component>
@@ -335,7 +320,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="biz-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="pom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,7 +454,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sqlmap" />
+              <option name="myItemId" value="mybatis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -509,19 +508,19 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\version-1.0\biz-all\src\main\resources\sqlmap" />
-      <recent name="F:\version-1.0\admin\src\main\resources\conf\sqlmap" />
-      <recent name="F:\version-1.0\admin\src\main\java\web\model" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="web.dao" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\version-1.0\admin\src\main\webapp\database" />
       <recent name="F:\version-1.0\admin\src\main\webapp\WEB-INF" />
       <recent name="F:\version-1.0\admin\src\main\webapp\images" />
       <recent name="F:\version-1.0\admin\src\main\resources\conf\spring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="web.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\version-1.0\biz-all\src\main\resources\sqlmap" />
+      <recent name="F:\version-1.0\admin\src\main\resources\conf\sqlmap" />
+      <recent name="F:\version-1.0\admin\src\main\java\web\model" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.admin">
@@ -1110,7 +1109,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128154000" />
+    <option name="totallyTimeSpent" value="128347000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1395,13 +1394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../admin/src/main/resources/conf/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6206896">
-          <caret line="10" column="79" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../admin/src/main/resources/conf/dbsetting.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1478,9 +1470,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0666666">
-          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
-          <folding />
+        <state vertical-scroll-proportion="-103.6">
+          <caret line="148" column="20" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
+          <folding>
+            <marker date="1495869960608" expanded="true" signature="508:6174" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1489,29 +1483,6 @@
         <state vertical-scroll-proportion="-4.633333">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../admin/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.793103">
-          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../admin/src/main/resources/conf/sqlmap/loginInfo_sqlMap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <marker date="1495526064456" expanded="true" signature="1043:1118" placeholder="select from login_info" />
-            <marker date="1495526064456" expanded="true" signature="1043:1119" placeholder="select from user_t" />
-            <marker date="1495526064456" expanded="true" signature="1225:1292" placeholder="delete from " />
-            <marker date="1495526064456" expanded="true" signature="1401:1612" placeholder="insert into user_t... " />
-            <marker date="1495526064456" expanded="true" signature="2954:3460" placeholder="update user_... " />
-            <marker date="1495526064456" expanded="true" signature="3581:3805" placeholder="update user_... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1529,18 +1500,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.4">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin/src/main/resources/conf/mybatis/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9827585">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.2727275">
+          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
           <folding>
-            <marker date="1495869616367" expanded="true" signature="1035:1110" placeholder="select from login_info" />
+            <element signature="e#2321#2345#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../admin/src/main/java/web/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15328467">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33211678">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
           </folding>
         </state>
       </provider>
