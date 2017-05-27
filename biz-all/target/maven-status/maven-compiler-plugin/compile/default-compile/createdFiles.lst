@@ -1,2 +1,4 @@
-model\SimpleJsonTree.class
 model\MenuTreeModel.class
+model\LoginInfo.class
+model\SimpleJsonTree.class
+dao\LoginInfoDAO.class

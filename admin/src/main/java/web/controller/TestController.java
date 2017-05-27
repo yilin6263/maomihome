@@ -1,13 +1,15 @@
 package web.controller;
 
 
+
+
+import dao.LoginInfoDAO;
+import model.LoginInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-import web.dao.LoginInfoDAO;
-import web.model.LoginInfo;
 
 import java.util.List;
 
@@ -18,6 +20,7 @@ import java.util.List;
 @RequestMapping(value = "/Test/*") //访问的url地址前缀，可以不写，写了就必须在方法url前面先加上class url 进行区分控制器
 public class TestController
 {
+
 	@Autowired
 	private LoginInfoDAO loginInfoDAO;
 
@@ -35,6 +38,6 @@ public class TestController
 	//produces用于解决返回中文乱码问题，application/json;为json解决中文乱码
 	@ResponseBody       //用于返回字符串,不写即返回视图
 	public String returnString() {
-		return "hello return string 这是中文，并没有乱码666";
+		return "hello return string 这是中文，并没有乱码777";
 	}
 }

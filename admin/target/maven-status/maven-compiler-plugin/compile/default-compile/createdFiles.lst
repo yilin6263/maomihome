@@ -1,3 +1,4 @@
-web\service\AdminMenuService.class
+web\dao\LoginInfoDAO.class
 web\controller\TestController.class
+web\service\AdminMenuService.class
 web\controller\AdminIndexController.class

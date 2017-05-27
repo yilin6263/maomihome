@@ -1,9 +1,7 @@
 package model;
 
-import java.util.Date;
-
 /**
- * Created by 17020406 on 2017/4/13.
+ * Created by 17020406 on 2017/5/27.
  */
 public class LoginInfo {
 	private Long id;
