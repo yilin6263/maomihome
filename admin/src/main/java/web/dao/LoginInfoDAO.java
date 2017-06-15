@@ -1,4 +1,4 @@
-package dao;
+package web.dao;
 
 import model.LoginInfo;
 import org.springframework.stereotype.Repository;

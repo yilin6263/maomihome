@@ -13,7 +13,7 @@
     <!-- Mapper 扫描配置 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactoryBeanName" value="sessionFactory" />
-        <property name="basePackage" value="dao" />
+        <property name="basePackage" value="web.dao" />
     </bean>
 
 </beans>

@@ -3,7 +3,7 @@ package web.controller;
 
 
 
-import dao.LoginInfoDAO;
+import web.dao.LoginInfoDAO;
 import model.LoginInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
