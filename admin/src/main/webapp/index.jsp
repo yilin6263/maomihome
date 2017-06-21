@@ -1,17 +1,44 @@
+<%@ page language="java" import="java.util.*" contentType="text/html;charset=gb2312"%>
 <html>
+<link rel="stylesheet" href="./styles/style.css" type="text/css">
+<link rel="stylesheet" href="styles/swiper.min.css">
+<script src="scripts/jquery-1.4.2.js"></script>
+<script src="scripts/index.js"></script>
+<script src="scripts/swiper.min.js"></script>
 <body>
-<h2>çŒ«ä¹‹å®¶</h2>
-<img alt="" src="/images/1.jpg">
-<h2>ç™»é™†</h2>
+<h2 class="title">»¶Ó­À´µ½Ã¨Ö®¼Ò</h2>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url(images/mao5.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(images/mao3.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(images/mao1.jpg)"></div>
+    </div>
+
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <!-- Èç¹ûÐèÒª¹ö¶¯Ìõ -->
+    <div class="swiper-scrollbar"></div>
+</div>
+<div class="login">
+    <h2 >µÇÂ½</h2>
 <form id="login" class="form" action="www.maomihome.com/user/login" method="post">
     <table>
-        <tr>ç™»é™†å</tr>
-        <td><input type="text" id="name" name="name" value="${loginInfo.name}"/></td>
+        <label class="form-label">µÇÂ¼Ãû</label>
+        <div class="form-controls" style="position: relative;">
+        <input class="inputText" type="text" id="name" name="name" value="${loginInfo.name}"/>
+        </div>
 
-        <tr>å¯†ç </tr>
-        <td><input type="text" id="password" name="password" value="${loginInfo.password}"></td>
-        <tr><input type="submit" >ç™»é™†</tr>
+        <label class="form-label">ÃÜÂë</label>
+        <input class="inputText" type="text" id="password" name="password" value="${loginInfo.password}">
+        <span class="btn btn-shine-default">
+            <button type="submit" id="loginBut" tabindex="3" class="btn-inner">µÇÂ¼</button>
+        </span>
     </table>
 </form>
+</div>
+
 </body>
 </html>
