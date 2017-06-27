@@ -50,16 +50,16 @@ public class AdminIndexController {
 	 * @see [相关类/方法](可选)
 	 * @since [产品/模块版本](可选)
 	 */
-	@RequestMapping("/index")
-	public ModelAndView index(HttpServletRequest request) {
-		List<MenuTreeModel> menuTreeList = adminMenuService.findAllParentMenu();
-		request.setAttribute("menuList", menuTreeList);
-
-
-		ModelAndView mav = new ModelAndView();
-		mav.setViewName("index");
-		return mav;
-	}
+//	@RequestMapping("/index")
+//	public ModelAndView index(HttpServletRequest request) {
+//		List<MenuTreeModel> menuTreeList = adminMenuService.findAllParentMenu();
+//		request.setAttribute("menuList", menuTreeList);
+//
+//
+//		ModelAndView mav = new ModelAndView();
+//		mav.setViewName("index");
+//		return mav;
+//	}
 
 	/**
 	 * 功能描述: 查询父菜单下的子菜单<br>

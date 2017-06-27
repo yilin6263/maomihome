@@ -1,17 +1,17 @@
 <%@ page language="java" import="java.util.*" contentType="text/html;charset=gb2312"%>
 <html>
-<link rel="stylesheet" href="./styles/style.css" type="text/css">
-<link rel="stylesheet" href="styles/swiper.min.css">
-<script src="scripts/jquery-1.4.2.js"></script>
-<script src="scripts/index.js"></script>
-<script src="scripts/swiper.min.js"></script>
+<link rel="stylesheet" href="../styles/style.css" type="text/css">
+<link rel="stylesheet" href="../styles/swiper.min.css">
+<script src="../scripts/jquery-1.4.2.js"></script>
+<script src="../scripts/index.js"></script>
+<script src="../scripts/swiper.min.js"></script>
 <body>
 <h2 class="title">欢迎来到猫之家</h2>
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background-image:url(images/mao5.jpg)"></div>
-        <div class="swiper-slide" style="background-image:url(images/mao3.jpg)"></div>
-        <div class="swiper-slide" style="background-image:url(images/mao1.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(../images/mao5.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(../images/mao3.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(../images/mao1.jpg)"></div>
     </div>
 
     <!-- Add Pagination -->

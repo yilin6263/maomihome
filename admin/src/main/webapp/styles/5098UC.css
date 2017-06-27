@@ -1,0 +1,52 @@
+a.btn-orange:visited {
+  color: #e94621;
+}
+a.btn-blackblue:visited {
+  color: #385488;
+}
+a.btn-gray:visited {
+  color: #666667;
+}
+a.btn-darker:visited {
+  color: #333334;
+}
+.md-header-tel .tel a:visited {
+  color: #e94621;
+}
+.md-menu li a:visited {
+  color: #fffffe;
+}
+.md-menu li.active a:visited {
+  color: #e94621;
+}
+.md-blankmenu li a:visited {
+  color: #333334;
+}
+.md-bread li a:visited {
+  color: #333333;
+}
+.md-pagi .prev a:visited,
+.md-pagi .next a:visited {
+  color: #333334;
+}
+.md-pill li a:visited {
+  color: #000001;
+}
+.md-tab li a:visited {
+  color: #000001;
+}
+.md-list > li a:visited {
+  color: #000001;
+}
+.md-list-collapse .expan li a:visited {
+  color: #666667;
+}
+#touchHome .discount a:visited {
+  color: #000001;
+}
+.coupon.countdown .mark:after {
+  content: '即将到期';
+}
+.coupon.expired .mark:after {
+  content: '已过期';
+}
