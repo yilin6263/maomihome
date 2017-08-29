@@ -12,5 +12,6 @@ import java.util.List;
 public interface LoginInfoDAO {
 
 	List<LoginInfo> selectLoginInfo();
-
+	int insert(LoginInfo loginInfo);
+	List<LoginInfo> selectLoginInfoByLogin(String name,String password);
 }

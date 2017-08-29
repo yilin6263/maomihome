@@ -7,7 +7,7 @@
 
     <!-- mybatis SqlSessionFactory配置 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="mapperLocations" value="classpath:sqlmap/*.xml" />
+        <property name="mapperLocations" value="classpath:conf/sqlmap/*.xml" />
     </bean>
 
     <!-- Mapper 扫描配置 -->

@@ -6,12 +6,21 @@ package model;
 public class LoginInfo {
 	private Long id;
 	private String name;
-	private int mobile;
+	private String mobile;
 	private int sex;
 	private String password;
 	private String email;
 	private String birthday;
 	private String loginTime;
+	private String likeAnimal;
+
+	public String getLikeAnimal() {
+		return likeAnimal;
+	}
+
+	public void setLikeAnimal(String likeAnimal) {
+		this.likeAnimal = likeAnimal;
+	}
 
 	public Long getId() {
 		return id;
@@ -29,11 +38,11 @@ public class LoginInfo {
 		this.name = name;
 	}
 
-	public int getMobile() {
+	public String getMobile() {
 		return mobile;
 	}
 
-	public void setMobile(int mobile) {
+	public void setMobile(String mobile) {
 		this.mobile = mobile;
 	}
 

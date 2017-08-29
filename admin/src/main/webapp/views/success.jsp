@@ -15,10 +15,20 @@
 <body>
 <h1>齐彦洲的springmvc</h1>
 <table border="0" cellpadding="0" cellspacing="0">
-    <tr>姓名</tr>
-    <c:forEach items="${loginInfoList}" var="loginInfo">
-        <td><c:out value="${loginInfo.name}" ></c:out></td>
 
+    <c:forEach items="${loginInfoList}" var="loginInfo">
+        <tr>
+            <th>姓名</th>
+        <td><c:out value="${loginInfo.name}" ></c:out></td>
+        </tr>
+        <tr>
+            <th>手机</th>
+        <td><c:out value="${loginInfo.mobile}" ></c:out></td>
+        </tr>
+        <tr>
+            <th>喜爱动物</th>
+        <td><c:out value="${loginInfo.likeAnimal}" ></c:out></td>
+        </tr>
     </c:forEach>
 
     </table>

@@ -9,8 +9,8 @@
 <h2 class="title">欢迎来到猫之家</h2>
 
 <div class="login">
-    <h2 >登陆</h2>
-<form id="login" class="form" action="/user/login" method="post">
+    <h2 >注册</h2>
+<form id="login" class="form" action="/user/doRegister" method="post">
     <table>
         <label class="form-label">登录名</label>
         <div class="form-controls" style="position: relative;">
@@ -19,11 +19,17 @@
 
         <label class="form-label">密码</label>
         <input class="inputText" type="text" id="password" name="password" value="${loginInfo.password}">
+        <label class="form-label">手机号码</label>
+        <input class="inputText" type="text" id="mobile" name="mobile" value="${loginInfo.mobile}">
+        <label class="form-label">喜爱动物</label>
+        <input class="inputText" type="text" id="likeAnimal" name="likeAnimal" value="${loginInfo.likeAnimal}">
+        <label class="form-label">性别</label>
+        <select class="inputText" name="sex" id ="sex">
+            <option value="1">男</option>
+            <option value="2">女</option>
+        </select>
         <span class="btn btn-shine-default">
-            <button type="submit" id="loginBut" tabindex="3" class="btn-inner">登录</button>
-        </span>
-        <span class="btn btn-shine-default">
-            <button TYPE="button" tabindex="3" class="btn-inner" onclick="javascrtpt:window.location.href='/user/register'" >注册</button>
+            <button type="submit" id="loginBut" tabindex="3" class="btn-inner">注册</button>
         </span>
     </table>
 </form>

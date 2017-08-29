@@ -20,7 +20,7 @@ public class IndexController {
 	String ua = request.getHeader("User-Agent");
 		ModelAndView mav = new ModelAndView();
 		if (isMobile(ua)) {
-			mav.setViewName("/views/m_index");
+			mav.setViewName("/views/index");
 		} else {
 			mav.setViewName("/views/index");
 		}
@@ -37,5 +37,8 @@ public class IndexController {
 		}
 		return false;
 	}
+
+
+
 
 }
