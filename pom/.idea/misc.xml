@@ -4,11 +4,11 @@
     <option name="defaultSettings" value="true" />
     <option name="formatter" value="ECLIPSE" />
     <option name="id" value="1488353237943" />
-    <option name="importOrderConfigFilePath" value="D:/SVN/moss_V6.4.9/moss-pom/eclipse/suning-javaformatter.xml" />
+    <option name="importOrderConfigFilePath" value="F:/code_style.xml" />
     <option name="importOrderFromFile" value="true" />
     <option name="name" value="default" />
-    <option name="pathToConfigFileJava" value="D:/SVN/moss_V6.4.9/moss-pom/eclipse/suning-javaformatter.xml" />
-    <option name="selectedJavaProfile" value="SUNING-B2C Store" />
+    <option name="pathToConfigFileJava" value="F:/code_style.xml" />
+    <option name="selectedJavaProfile" value="jt_code_style" />
   </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
@@ -34,7 +34,7 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" assert-keyword="true" jdk-15="true">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

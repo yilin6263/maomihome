@@ -22,7 +22,7 @@ public class IndexController {
 		if (isMobile(ua)) {
 			mav.setViewName("/views/m_index");
 		} else {
-			mav.setViewName("/views/m_index");
+			mav.setViewName("/views/index");
 		}
 
 		return mav;    //返回Views文件夹下的success.jsp页面
